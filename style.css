@@ -1,0 +1,303 @@
+    @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+    * {
+        margin: 0px;
+        padding: 0px;
+        scroll-behavior: smooth;
+    }
+    
+    section {
+        font-family: 'Sen', sans-serif;
+        background-color: black;
+        scroll-behavior: smooth;
+        width: 100%;
+    }
+    
+    .col-xl-2 {
+        box-sizing: border-box;
+        border: 1px solid #333;
+        text-align: center;
+    }
+    
+    .middle {
+        padding: 120px 72px 120px 72px;
+    }
+    
+    .content {
+        padding-right: 48px;
+        margin-bottom: 80px;
+    }
+    
+    .content h2 {
+        font-size: 55px;
+        height: 110px;
+        font-weight: 700;
+        width: 75%;
+    }
+    
+    .content p {
+        margin-top: 90px;
+        margin-bottom: 8px;
+        font-size: 16px;
+        height: 30px;
+        font-weight: 700;
+    }
+    
+    .photo {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .custom-back {
+        background-color: #181823;
+    }
+    
+    .custom-padding {
+        padding: 40px 80px;
+        margin-bottom: 30px;
+    }
+    
+    .custom-head-margin {
+        margin-bottom: 16px;
+    }
+    
+    .custom-para-margin {
+        margin-bottom: 10px;
+    }
+    
+    .custom-color-white {
+        color: white;
+    }
+    
+    .custom-grey {
+        color: #8491a0;
+    }
+    
+    .custom-font {
+        font-size: 26px;
+        height: 120%;
+        font-weight: 700;
+    }
+    
+    .custom-para-font {
+        font-size: 20px;
+        height: 150%;
+        font-weight: 400;
+    }
+    
+    .arrow {
+        float: right;
+        height: 50px;
+        width: 50px;
+        background-color: #5221e6;
+        padding-top: 12px;
+        margin-top: -10px;
+        margin-right: -80px;
+        text-align: center;
+    }
+    
+    .text {
+        width: auto;
+        height: 232px;
+        text-align: center;
+    }
+    
+    .btn {
+        margin-top: 75px;
+        font-weight: 700 !important;
+        color: white !important;
+        text-align: center;
+        cursor: pointer;
+        border: 1px solid blue !important;
+        padding: 24px 32px !important;
+        font-size: 18px !important;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .btn:hover,
+    .btn:focus {
+        background-color: #5221e6;
+        transition: all 0.3s ease 0s;
+        box-shadow: 0 0.5em 3.5em -0.4em #5221e6;
+        transform: translateY(-0.25em);
+    }
+    
+    .instagram {
+        background-color: #fbe4ff;
+    }
+    
+    .content1 {
+        padding: 120px 72px 120px 72px;
+    }
+    
+    .plane img {
+        width: 100%;
+    }
+    
+    .content1 h2 {
+        font-size: 55px;
+        height: 110%;
+        font-weight: 700;
+        color: #181823;
+        margin-bottom: 24px;
+        max-width: 780px;
+    }
+    
+    .content1 p {
+        /* margin-top: 90px;
+        margin-bottom: 8px; */
+        font-size: 18px;
+        height: 150%;
+        color: #5b6876;
+        font-weight: 400;
+        margin-bottom: 10px;
+    }
+    
+    .btn1 {
+        margin-top: 200px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 400;
+        background-color: #fbe4ff;
+        border: 1px solid #fbe4ff;
+        border-bottom: 1px solid #181823;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        scroll-behavior: smooth;
+    }
+    
+    .btn1:hover {
+        color: white;
+        padding-left: 16px;
+        padding-right: 16px;
+        background-color: #5221e6;
+        transition: all 0.3s ease 0s;
+        transform: translateX(-0.85em);
+    }
+    
+    .foot {
+        padding: 80px 72px;
+        height: 422px;
+        background-color: #181823;
+    }
+    
+    .social img {
+        max-width: 100%;
+        margin-right: 16px;
+    }
+    
+    .contact {
+        display: contents;
+    }
+    
+    .col-3 {
+        display: grid;
+    }
+    
+    .col-3 a {
+        text-decoration: none;
+        font-size: 16px;
+        height: 20px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    
+    .blog {
+        padding-bottom: 80px;
+    }
+    
+    .footpara {
+        margin-top: 210px;
+    }
+    
+    .footpara p {
+        height: 150%;
+        font-size: 16px;
+        color: #8491a0;
+        font-weight: 400;
+    }
+    
+    @media screen and (max-width:1024px) {
+        .content h2 {
+            width: 100%;
+            font-size: 46px;
+            height: 100px;
+        }
+        .content1 p {
+            font-size: 23px;
+        }
+        .plane img {
+            width: 100%;
+            height: 100vh;
+        }
+        .btn1 {
+            margin-top: 140px;
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .content h2 {
+            width: 80%;
+            font-size: 52px;
+            height: 100px;
+        }
+        .content1 p {
+            font-size: 15px;
+        }
+        .plane img {
+            width: 100%;
+            height: 100vh;
+        }
+        .btn1 {
+            margin-top: 90px;
+        }
+    }
+    
+    @media screen and (min-width:320px) and (max-width:767px) {
+        .content h2 {
+            width: 100%;
+            font-size: 40px;
+            height: 100px;
+        }
+        .content {
+            padding-right: 0px;
+        }
+        .photo {
+            height: 300px;
+        }
+        .custom-font {
+            font-size: 24px;
+        }
+        .custom-para-font {
+            font-size: 18px;
+        }
+        .custom-padding {
+            padding: 40px 10px;
+        }
+        .arrow {
+            padding-top: 12px;
+            margin-right: -10px;
+        }
+        .btn {
+            padding: 24px 24px !important;
+        }
+        .plane img {
+            width: 100%;
+            height: 100vh;
+        }
+        .blog {
+            padding-bottom: 138px;
+        }
+        .home {
+            padding-bottom: 80px;
+        }
+        .foot {
+            padding: 80px 60px;
+        }
+        .footpara {
+            margin-top: 180px;
+            width: max-content;
+        }
+        .footpara p {
+            font-size: 15px;
+        }
+    }
